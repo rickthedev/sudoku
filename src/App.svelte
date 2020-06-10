@@ -112,6 +112,9 @@
     text-align: center;
     border: 1px #ddd solid;
     box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none
   }
 
   input::-webkit-inner-spin-button,
