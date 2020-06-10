@@ -98,32 +98,9 @@
     }
   }
 
-  .item {
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-color: white;
-    transition: 0.2s all;
-  }
-
   input:focus {
     outline: none;
     background-color: #ddd;
-  }
-
-  h2 {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: 400;
-    font-size: 3vmin;
   }
 
   input {
@@ -133,6 +110,8 @@
     height: 100%;
     border-radius: 0;
     text-align: center;
+    border: 1px #ddd solid;
+    box-shadow: none;
   }
 
   input::-webkit-inner-spin-button,
