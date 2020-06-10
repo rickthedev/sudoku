@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { getSudokuPair } from "./components/sudoku.svelte";
-  let [sudoku, solvedSudoku] = getSudokuPair(1);
+  let [sudoku, solvedSudoku] = getSudokuPair(3);
 
   sudoku = sudoku.map(row =>
     row.map(item => {
